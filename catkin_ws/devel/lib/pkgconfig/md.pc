@@ -1,0 +1,8 @@
+prefix=/home/latte-ubicomp/Desktop/narae-ws/catkin_ws/devel
+
+Name: md
+Description: Description of md
+Version: 0.0.0
+Cflags: -I/home/latte-ubicomp/Desktop/narae-ws/catkin_ws/devel/include -I/home/latte-ubicomp/Desktop/narae-ws/catkin_ws/src/md/include
+Libs: -L${prefix}/lib -lmd
+Requires: serial rosconsole roscpp sensor_msgs std_msgs geometry_msgs tf

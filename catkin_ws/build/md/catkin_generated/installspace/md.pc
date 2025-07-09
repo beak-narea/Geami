@@ -1,0 +1,8 @@
+prefix=/home/latte-ubicomp/Desktop/narae-ws/catkin_ws/install
+
+Name: md
+Description: Description of md
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lmd
+Requires: serial rosconsole roscpp sensor_msgs std_msgs geometry_msgs tf
