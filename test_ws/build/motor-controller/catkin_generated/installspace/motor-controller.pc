@@ -1,0 +1,8 @@
+prefix=/home/latte-ubicomp/Desktop/narae-ws/test_ws/install
+
+Name: motor-controller
+Description: Description of motor-controller
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
