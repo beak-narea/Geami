@@ -69,9 +69,9 @@ class MotorTeleopController:
         angular = msg.angular.z
 
         if linear > 0:
-            direction = "forward"
+            direction = "front"
         elif linear < 0:
-            direction = "backward"
+            direction = "back"
         elif angular > 0:
             direction = "left"
         elif angular < 0:
